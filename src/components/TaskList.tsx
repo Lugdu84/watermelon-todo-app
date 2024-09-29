@@ -25,6 +25,7 @@ function TaskList({ tasks }: TaskListProps) {
 	const [filteredChecked, setFilteredChecked] = useState<boolean | undefined>(
 		undefined
 	);
+
 	return (
 		<FlatList
 			ListHeaderComponent={() => (
